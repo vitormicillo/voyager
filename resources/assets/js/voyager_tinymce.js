@@ -1,7 +1,7 @@
 // Theme
 import 'tinymce/themes/silver/theme';
 
-  // Plugins
+// Plugins
 import 'tinymce/plugins/link';
 import 'tinymce/plugins/image';
 import 'tinymce/plugins/code';
@@ -10,6 +10,9 @@ import 'tinymce/plugins/textcolor';
 import 'tinymce/plugins/lists';
 import 'tinymce/plugins/fullscreen';
 import 'tinymce/plugins/media';
+
+// Icons
+import 'tinymce/icons/default';
 
 $(document).ready(function(){
 
