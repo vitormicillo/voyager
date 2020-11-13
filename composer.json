@@ -1,6 +1,6 @@
 {
-    "name": "tcg/voyager",
-    "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
+    "name": "doode/voyager",
+    "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction, forked version for Doode",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
     "homepage": "https://voyager.devdojo.com/",
