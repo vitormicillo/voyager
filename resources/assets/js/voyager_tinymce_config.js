@@ -10,9 +10,9 @@ var getConfig = function(options) {
         menubar: false,
         selector: 'textarea.richTextBox',
         skin_url: $('meta[name="assets-path"]').attr('content')+'?path=js/skins/voyager',
-        min_height: 600,
+        min_height: 400,
         resize: 'vertical',
-        plugins: 'link, image, code, table, textcolor, lists',
+        plugins: 'link, image, code, table, textcolor, lists, media',
         extended_valid_elements : 'input[id|name|value|type|class|style|required|placeholder|autocomplete|onclick]',
         file_browser_callback: function(field_name, url, type, win) {
                 if(type =='image'){
@@ -20,7 +20,7 @@ var getConfig = function(options) {
                 }
             },
         toolbar: 'styleselect bold italic underline | forecolor backcolor | alignleft aligncenter alignright | bullist numlist outdent indent | link image table | code',
-        convert_urls: false,
+        convert_urls: true,
         image_caption: true,
         image_title: true,
         init_instance_callback: function (editor) {
