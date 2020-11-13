@@ -1,5 +1,5 @@
 // Theme
-import 'tinymce/themes/modern/theme';
+import 'tinymce/themes/silver/theme';
 
   // Plugins
 import 'tinymce/plugins/link';
@@ -8,6 +8,8 @@ import 'tinymce/plugins/code';
 import 'tinymce/plugins/table';
 import 'tinymce/plugins/textcolor';
 import 'tinymce/plugins/lists';
+import 'tinymce/plugins/fullscreen';
+import 'tinymce/plugins/media';
 
 $(document).ready(function(){
 
